@@ -14,4 +14,9 @@
         <item name="android:textColorSecondary">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="MapTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/blue_1</item>
+        <item name="background">@color/blue_1</item>
+    </style>
 </resources>

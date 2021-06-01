@@ -33,6 +33,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.time.LocalDate;
@@ -49,6 +50,7 @@ public class ProductDetailActivity extends AppCompatActivity {
     TextView tvName, tvPrice, tvMinMax;
     Button btnBuy, btnOk;
     CardView cvShowLocation;
+    ImageButton ibLocation;
     Dialog dialog;
 
     String phoneNumber, message;
@@ -106,8 +108,11 @@ public class ProductDetailActivity extends AppCompatActivity {
             }
         });
 
-        cvShowLocation.setOnClickListener(x -> {
+        ibLocation.setOnClickListener(x -> {
             //go to map form and show location
+            Intent intent = new Intent(this, MapsActivity.class);
+            intent.putExtra(HelperData.PRODUCT_DATA, product);
+            startActivity(intent);
         });
     }
 
@@ -170,6 +175,7 @@ public class ProductDetailActivity extends AppCompatActivity {
         tvMinMax = (TextView) findViewById(R.id.tv_detail_min_max);
         btnBuy = (Button) findViewById(R.id.btn_buy);
         cvShowLocation = (CardView) findViewById(R.id.cv_show_location);
+        ibLocation = (ImageButton) findViewById(R.id.ib_location);
     }
 
     private void getDataFromIntent() {

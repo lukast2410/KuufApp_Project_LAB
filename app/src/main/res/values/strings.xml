@@ -52,4 +52,5 @@
     <string name="no_history">There is no transaction</string>
     <string name="not_granted">Permissions not granted!</string>
     <string name="please_allow">Please allow the permissions first!</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
