@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">KuufApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="dob">Date of Birth</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="agree_terms">Agree for terms and condition</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Have an account?</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create account</string>
+
+    <!--    error error-->
+    <string name="username_empty">Username can\'t be empty!</string>
+    <string name="password_empty">Password can\'t be empty!</string>
+    <string name="login_failed">Authentication failed!</string>
+    <string name="username_612">Must be between 6 and 12 characters!</string>
+    <string name="username_exists">Username already exists!</string>
+    <string name="password_more8">Must be more than 8 characters!</string>
+    <string name="password_alphanumeric">Must contains alphanumeric!</string>
+    <string name="confirm_not_same">Must be the same with password!</string>
+    <string name="dob_not_filled">Must be filled!</string>
+    <string name="phone_1012">Must be between 10 and 12 digits!</string>
+    <string name="phone_must_numbers">Must contains only numbers!</string>
+    <string name="gender_not_selected">Must be selected!</string>
+    <string name="agree_must">Must agree for terms and condition!</string>
+
+    <string name="home">Home</string>
+    <string name="store">Store</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="top_up">Top Up</string>
+    <string name="top_up_250k">Rp. 250.000</string>
+    <string name="top_up_500k">Rp. 500.000</string>
+    <string name="top_up_1000k">Rp. 1.000.000</string>
+    <string name="top_up_not_selected">You have to select the top up nominal!</string>
+    <string name="top_up_password_error">Wrong password!</string>
+
+    <string name="product">Product</string>
+    <string name="price">Price</string>
+    <string name="player">5 - 6</string>
+    <string name="buy">Buy Product</string>
+    <string name="not_enough">Not enough money!</string>
+    <string name="ok">OK</string>
+    <string name="please_top_up">Please top up your wallet first!</string>
+    <string name="history">Transaction history</string>
+    <string name="no_history">There is no transaction</string>
+</resources>

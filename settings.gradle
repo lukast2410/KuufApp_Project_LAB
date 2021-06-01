@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "KuufApp_Project_LAB"
