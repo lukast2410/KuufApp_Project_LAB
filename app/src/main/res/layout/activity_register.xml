@@ -30,6 +30,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginHorizontal="30dp"
             android:hint="@string/username"
+            android:maxLines="1"
+            android:textColor="@color/black"
             android:background="@drawable/form_bg"
             android:paddingVertical="10dp"
             android:paddingHorizontal="15dp"/>
@@ -53,6 +55,8 @@
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="30dp"
             android:hint="@string/password"
+            android:maxLines="1"
+            android:textColor="@color/black"
             android:background="@drawable/form_bg"
             android:paddingVertical="10dp"
             android:paddingHorizontal="15dp"
@@ -77,6 +81,8 @@
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="30dp"
             android:hint="@string/confirm"
+            android:maxLines="1"
+            android:textColor="@color/black"
             android:background="@drawable/form_bg"
             android:paddingVertical="10dp"
             android:paddingHorizontal="15dp"
@@ -101,6 +107,8 @@
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="30dp"
             android:hint="@string/phone"
+            android:textColor="@color/black"
+            android:maxLines="1"
             android:background="@drawable/form_bg"
             android:paddingVertical="10dp"
             android:paddingHorizontal="15dp"
@@ -144,6 +152,7 @@
                 android:layout_height="match_parent"
                 android:padding="7.5dp"
                 android:layout_marginStart="-50dp"
+                app:tint="@color/black"
                 android:src="@drawable/ic_date_24"/>
 
         </LinearLayout>

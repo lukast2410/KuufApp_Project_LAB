@@ -66,6 +66,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(new MarkerOptions().position(location).title(product.getName()));
         CameraPosition cameraPosition = new CameraPosition.Builder().target(location).zoom(15).build();
         mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+        mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
     }
 
     @Override

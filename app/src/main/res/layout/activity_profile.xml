@@ -32,7 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/profile_background" />
+                    android:src="@drawable/profile_background"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -68,6 +68,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginBottom="10dp"
                 app:contentPadding="10dp"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -214,6 +215,7 @@
                             android:padding="10dp"
                             android:ems="10"
                             android:inputType="textPassword"
+                            android:textColor="@color/black"
                             android:hint="@string/password"
                             android:background="@drawable/basic_input" />
 
@@ -256,7 +258,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/ic_baseline_phone_24"
-                    app:tint="@color/blue_3"/>
+                    app:tint="?attr/iconColor"/>
 
                 <TextView
                     android:id="@+id/tv_profile_phone"
@@ -265,8 +267,7 @@
                     android:gravity="center_vertical"
                     android:layout_marginStart="10dp"
                     android:text="@string/phone"
-                    android:textSize="18sp"
-                    android:textColor="@color/blue_3"/>
+                    android:textSize="18sp"/>
 
             </LinearLayout>
 
@@ -287,7 +288,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/ic_gender"
-                    app:tint="@color/blue_3"/>
+                    app:tint="?attr/iconColor"/>
 
                 <TextView
                     android:id="@+id/tv_profile_gender"
@@ -296,8 +297,7 @@
                     android:gravity="center_vertical"
                     android:layout_marginStart="10dp"
                     android:text="@string/male"
-                    android:textSize="18sp"
-                    android:textColor="@color/blue_3"/>
+                    android:textSize="18sp"/>
 
             </LinearLayout>
 
@@ -318,7 +318,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/ic_dob"
-                    app:tint="@color/blue_3"/>
+                    app:tint="?attr/iconColor"/>
 
                 <TextView
                     android:id="@+id/tv_profile_dob"
@@ -327,8 +327,7 @@
                     android:gravity="center_vertical"
                     android:layout_marginStart="10dp"
                     android:text="@string/dob"
-                    android:textSize="18sp"
-                    android:textColor="@color/blue_3"/>
+                    android:textSize="18sp"/>
 
             </LinearLayout>
 

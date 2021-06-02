@@ -20,14 +20,15 @@
                 android:layout_height="300dp"
                 android:src="@drawable/ic_baseline_videogame_asset_24"
                 app:tint="@color/white"
-                android:background="@color/blue_3"/>
+                android:background="@color/blue_2"/>
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/detail_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                app:titleTextColor="@color/white"/>
+                app:titleTextColor="@color/white"
+                />
 
         </RelativeLayout>
 
@@ -39,8 +40,7 @@
             android:layout_marginHorizontal="15dp"
             android:paddingVertical="5dp"
             android:text="@string/product"
-            android:textSize="25sp"
-            android:textColor="@color/black"/>
+            android:textSize="25sp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -61,7 +61,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:text="@string/price"
-                android:textColor="@color/black"
                 android:textSize="21sp"
                 android:textStyle="bold"/>
 
@@ -78,8 +77,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_baseline_people_alt_24"
-                app:tint="@color/black" />
+                android:src="@drawable/ic_baseline_people_alt_24" />
 
             <TextView
                 android:id="@+id/tv_detail_min_max"
@@ -87,7 +85,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:text="@string/price"
-                android:textColor="@color/black"
                 android:textSize="21sp"/>
 
         </LinearLayout>
